@@ -11,7 +11,7 @@ public class Draw : MonoBehaviour
     [SerializeField] Slider slider;
     private LineRenderer currentTrail;
     private List<Vector3> points = new List<Vector3>();
-   public Color col;
+   public Color col=Color.black;
 
     void Start()
     {
