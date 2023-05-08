@@ -12,7 +12,7 @@ public class LineGenerator : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject newLine = Instantiate(linePrefab);
+            GameObject newLine = Instantiate(linePrefab,this.transform);
             activeLine = newLine.GetComponent<Line>();
 
 
